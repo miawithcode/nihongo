@@ -7,7 +7,7 @@
 
 colorScheme = "noir"
 defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
@@ -18,7 +18,7 @@ mainSections = ["minnano"]
 [footer]
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]
@@ -47,7 +47,8 @@ mainSections = ["minnano"]
   showTaxonomies = true  
   showWordCount = false
   showSummary = true
-  sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
+  sharingLinks = false
+  showComments = false
 
 [list]
   showBreadcrumbs = false

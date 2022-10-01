@@ -1,6 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: ""
 date: {{ .Date }}
-draft: true
+lastmod: 
+tags: ["みんなの日本語","n5-n4"]
+summary: ""
 ---
-

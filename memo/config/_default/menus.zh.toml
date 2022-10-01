@@ -29,3 +29,7 @@
    name = "Tags"
    pageRef = "tags"
    weight = 10
+ [[footer]]
+   name = "变形规则"
+   pageRef = "transform"
+   weight = 20
