@@ -80,4 +80,4 @@ tags: ["动词变形"]
 
 ---
 ## Reference
-- [日语语法指南-可能形](https://res.wokanxing.info/jpgramma/potential.html)
+- [日语语法指南 - 可能形](https://res.wokanxing.info/jpgramma/potential.html)
