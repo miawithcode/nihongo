@@ -44,7 +44,7 @@ mainSections = ["minnano"]
   invertPagination = true
   showReadingTime = false
   showTableOfContents = true
-  showTaxonomies = true  
+  showTaxonomies = true
   showWordCount = false
   showSummary = true
   sharingLinks = false
@@ -54,8 +54,8 @@ mainSections = ["minnano"]
   showBreadcrumbs = false
   showSummary = true
   showTableOfContents = false
-  groupByYear = false
   showCards = true
+  groupByYear = false
 
 [sitemap]
   excludedKinds = []
