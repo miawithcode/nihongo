@@ -4,8 +4,17 @@
   
     
       <url>
-            <loc>https://nihongo.cuttontail.blog/tags/n5-n4/</loc>
-            <lastmod>2022-10-04T16:50:45+08:00</lastmod>
+            <loc>https://nihongo.cuttontail.blog/n3/1/</loc>
+            <lastmod>2022-10-05T18:38:08+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nihongo.cuttontail.blog/tags/n3/</loc>
+            <lastmod>2022-10-05T18:38:08+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -14,6 +23,33 @@
     
       <url>
             <loc>https://nihongo.cuttontail.blog/tags/</loc>
+            <lastmod>2022-10-05T18:38:08+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nihongo.cuttontail.blog/</loc>
+            <lastmod>2022-10-05T18:38:08+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nihongo.cuttontail.blog/n3/</loc>
+            <lastmod>2022-10-05T18:38:08+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nihongo.cuttontail.blog/tags/n5-n4/</loc>
             <lastmod>2022-10-04T16:50:45+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -41,15 +77,6 @@
     
       <url>
             <loc>https://nihongo.cuttontail.blog/minnano/self-deprecating/</loc>
-            <lastmod>2022-10-04T16:50:45+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nihongo.cuttontail.blog/</loc>
             <lastmod>2022-10-04T16:50:45+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>

@@ -11,14 +11,19 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+  name = "N3"
+  pageRef = "n3"
+  weight = 10
+
+[[main]]
   name = "みんなの日本語"
   pageRef = "minnano"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "变形规则"
   pageRef = "transform"
-  weight = 20
+  weight = 30
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
