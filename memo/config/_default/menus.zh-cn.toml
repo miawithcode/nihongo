@@ -38,4 +38,12 @@
    name = "变形规则"
    pageRef = "transform"
    weight = 20
+ [[footer]]
+   name = "N3"
+   pageRef = "n3"
+   weight = 30
+ [[footer]]
+   name = "N5-N4"
+   pageRef = "minnano"
+   weight = 40
 
