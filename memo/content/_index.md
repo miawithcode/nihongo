@@ -17,6 +17,7 @@ description: ""
 - **为什么不用笔记管理软件，比如 Notion, Roam Research, Obsidian...？**
     - 公开笔记会让我更严肃地对待我写下的东西，社交压力会逼我提高自己的水平，这是我对「**Learn In Public**」的实践。
 
+---
 {{< alert "link" >}}
 工具
 {{< /alert >}}
