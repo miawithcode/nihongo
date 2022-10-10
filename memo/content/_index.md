@@ -18,12 +18,3 @@ description: ""
     - 公开笔记会让我更严肃地对待我写下的东西，社交压力会逼我提高自己的水平，这是我对「**Learn In Public**」的实践。
 
 ---
-{{< alert "link" >}}
-工具
-{{< /alert >}}
-- [NHL](https://tsukubawebcorpus.jp/search/) - 查询单词的地道用法和常用词语搭配的搜索工具
-- [なつめ](https://hinoki-project.org/natsume/) - NHL简化版
-- [毎日のんびり日本語教師](https://nihongonosensei.net/?page_id=10246) - 讲解了N5-N1所有语法的博客
-- [知名度.net](https://jp.xn--eqro0w6nu.net/) - 快速学习日本的文化常识
-
----
