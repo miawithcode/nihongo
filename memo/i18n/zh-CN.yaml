@@ -1,7 +1,7 @@
 article:
   anchor_label: "Anchor"
   date: "{{ .Date }}"
-  date_updated: "updated on {{ .Date }}"
+  date_updated: "updated {{ .Date }}"
   draft: "Draft"
   edit_title: "Edit content"
   reading_time:
