@@ -33,8 +33,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.133667adbeea4ed0c2b613b4a8b887b623b8d90e4f5e0c039c30e1009b32c02190dcf5128c898a3ffb616155fa2aef8c2dde00dab11210ed359eb77802cbbb5f.css"
-    integrity="sha512-EzZnrb7qTtDCthO0qLiHtiO42Q5PXgwDnDDhAJsywCGQ3PUSjImKP/thYVX6Ku&#43;MLd4A2rESEO01nrd4Asu7Xw==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.c494adfb8a18a12e7f69ee8022f024cc9317eb32b7adb9a8ff0be5bfa956d3c19c76a48570e32ed90eec2a090a5cfc18e239332bf668c90d9eadfb32f80f05d9.css"
+    integrity="sha512-xJSt&#43;4oYoS5/ae6AIvAkzJMX6zK3rbmo/wvlv6lW08GcdqSFcOMu2Q7sKgkKXPwY4jkzK/ZoyQ2erfsy&#43;A8F2Q==" />
   
   
   <script type="text/javascript" src="/js/main.min.cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e.js" integrity="sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP&#43;DGNKHfuwvY7kxvUdBeoGlODJ6&#43;SfaPg=="></script>
@@ -108,7 +108,7 @@
     "keywords": ["n5-n4"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "79"
+    "wordCount": "82"
   }]
   </script>
 
@@ -568,7 +568,9 @@
 </ul>
 </li>
 <li>
-<p><strong><a href="/transform/potential/">可能动词</a></strong>（可能动词表示状态，是非意志动词）</p>
+<p><strong><a href="/transform/potential/"  >
+    可能动词
+</a></strong>（可能动词表示状态，是非意志动词）</p>
 </li>
 <li>
 <p><strong>表示某种状态</strong>的动词</p>
@@ -680,8 +682,14 @@
 <hr>
 <h2 id="关联阅读" class="relative group">关联阅读 <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%85%b3%e8%81%94%e9%98%85%e8%af%bb" aria-label="Anchor">#</a></span></h2>
 <ul>
-<li><a href="https://www.bilibili.com/video/BV1G34y1e7RA?p=39">【单词跟读】大家的日本语第39课</a>｜<a href="https://youtu.be/s7u36Olrkx4">🔗 YouTube</a></li>
-<li><a href="/transform/ordinary-form">日语中的「普通形」</a></li>
+<li><a href="https://www.bilibili.com/video/BV1G34y1e7RA?p=39"   target="_blank">
+    【单词跟读】大家的日本语第39课
+</a>｜<a href="https://youtu.be/s7u36Olrkx4"   target="_blank">
+    🔗 YouTube
+</a></li>
+<li><a href="/transform/ordinary-form"  >
+    日语中的「普通形」
+</a></li>
 </ul>
 
       </div>
@@ -726,20 +734,23 @@
 
           if (liked) {
             liked_article = true
-            document.querySelectorAll("button[id='likes_button']")[0].innerText = "Remove Like"
+            document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = ""
+            document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = "none"
+            document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "Remove Like"
           }
 
         }
 
         function like_article(id_likes) {
-          console.log("add")
-          liked_article = true
-          localStorage.setItem(id_likes, true);
-          document.querySelectorAll("button[id='likes_button']")[0].innerText = "Remove Like"
           auth.signInAnonymously()
             .then(() => {
               var docRef = db.collection('likes').doc(id_likes)
               docRef.get().then((doc) => {
+                liked_article = true
+                localStorage.setItem(id_likes, true);
+                document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = ""
+                document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = "none"
+                document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "Remove Like"
                 if (doc.exists) {
                   db.collection('likes').doc(id_likes).update({
                     likes: firebase.firestore.FieldValue.increment(1)
@@ -759,14 +770,15 @@
         }
 
         function remove_like_article(id_likes) {
-          console.log("remove")
-          liked_article = false
-          localStorage.setItem(id_likes, false);
-          document.querySelectorAll("button[id='likes_button']")[0].innerText = "Like"
           auth.signInAnonymously()
             .then(() => {
               var docRef = db.collection('likes').doc(id_likes)
               docRef.get().then((doc) => {
+                liked_article = false
+                localStorage.removeItem(id_likes);
+                document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = "none"
+                document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = ""
+                document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "Like"
                 if (doc.exists) {
                   db.collection('likes').doc(id_likes).update({
                     likes: firebase.firestore.FieldValue.increment(-1)
