@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["n3","minnano"]
+mainSections = ["n2","n3"]
 # robots = ""
 
 [footer]

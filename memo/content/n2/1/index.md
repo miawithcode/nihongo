@@ -1,7 +1,7 @@
 ---
-title: "test"
+title: "文の文法　1课"
 date: 2022-10-18T19:34:48+08:00
 lastmod: 
 tags: ["n2"]
-summary: ""
+summary: "「当...时候」和「一...就...」等时间有关的表达"
 ---
