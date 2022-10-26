@@ -1,0 +1,58 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+[[main]]
+  name = "N2"
+  pageRef = "n2"
+  weight = 10
+
+[[main]]
+  name = "N3"
+  pageRef = "n3"
+  weight = 20
+
+[[main]]
+  name = "みんなの日本語"
+  pageRef = "minnano"
+  weight = 30
+
+[[main]]
+  name = "变形规则"
+  pageRef = "transform"
+  weight = 40
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+
+ [[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 10
+ [[footer]]
+   name = "变形规则"
+   pageRef = "transform"
+   weight = 20
+[[footer]]
+   name = "N2"
+   pageRef = "n2"
+   weight = 30
+ [[footer]]
+   name = "N3"
+   pageRef = "n3"
+   weight = 40
+ [[footer]]
+   name = "N5-N4"
+   pageRef = "minnano"
+   weight = 50
+
