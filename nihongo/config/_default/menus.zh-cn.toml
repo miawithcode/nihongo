@@ -11,23 +11,24 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+  identifier = "cuttontail"
+  name = "小綿尾巴"
+  url = "https://cuttontail.blog"
+  weight = 10
+
+[[main]]
   name = "N2"
   pageRef = "n2"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "N3"
   pageRef = "n3"
-  weight = 20
-
-[[main]]
-  name = "みんなの日本語"
-  pageRef = "minnano"
   weight = 30
 
 [[main]]
-  name = "变形规则"
-  pageRef = "transform"
+  name = "N5-N4"
+  pageRef = "minnano"
   weight = 40
 
 # -- Footer Menu --
@@ -43,16 +44,4 @@
    name = "变形规则"
    pageRef = "transform"
    weight = 20
-[[footer]]
-   name = "N2"
-   pageRef = "n2"
-   weight = 30
- [[footer]]
-   name = "N3"
-   pageRef = "n3"
-   weight = 40
- [[footer]]
-   name = "N5-N4"
-   pageRef = "minnano"
-   weight = 50
 
