@@ -31,6 +31,12 @@
   pageRef = "minnano"
   weight = 40
 
+[[main]]
+  identifier = "twitter"
+  pre = "twitter"
+  url = "https://twitter.com/cuttontailc"
+  weight = 50
+
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
