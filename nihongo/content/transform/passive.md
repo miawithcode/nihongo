@@ -56,5 +56,6 @@ tags: ["动词变形"]
     - 叙述时，把物/事做为主题/主语（不注重行为者）
 
 ---
-## Reference
+## 关联阅读
+- - [「被动」、「使役」和「使役被动](/n3/atc-5/)
 - [日语语法指南 - 使役动词和被动词](https://res.wokanxing.info/jpgramma/causepass.html)

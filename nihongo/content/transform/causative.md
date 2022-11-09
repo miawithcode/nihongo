@@ -70,5 +70,6 @@ summary: "日语动词「使役动词」的变形规则及用法"
     - 可以让（允许）我......吗？
 
 ---
-## Reference
+## 关联阅读
+- [「被动」、「使役」和「使役被动](/n3/atc-5/)
 - [日语语法指南 - 使役动词和被动词](https://res.wokanxing.info/jpgramma/causepass.html)
