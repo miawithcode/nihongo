@@ -10,16 +10,11 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  identifier = "cuttontail"
-  name = "小綿尾巴"
-  url = "https://cuttontail.blog"
-  weight = 10
 
 [[main]]
   name = "N2"
-  pageRef = "n2"
-  weight = 20
+  pageRef = "noryoku"
+  weight = 10
 
 [[main]]
   name = "N3"
@@ -31,23 +26,23 @@
   pageRef = "minnano"
   weight = 40
 
-[[main]]
-  identifier = "twitter"
-  pre = "twitter"
-  url = "https://twitter.com/cuttontailc"
-  weight = 50
+ [[main]]
+   name = "动词变形"
+   pageRef = "transform"
+   weight = 50
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
 
+[[footer]]
+  identifier = "cuttontail"
+  name = "小綿尾巴"
+  url = "https://cuttontail.blog"
+  weight = 10
  [[footer]]
    name = "Tags"
    pageRef = "tags"
-   weight = 10
- [[footer]]
-   name = "变形规则"
-   pageRef = "transform"
    weight = 20
 

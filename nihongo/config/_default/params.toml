@@ -12,7 +12,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["n2"]
+mainSections = ["n2","noryoku"]
 # robots = ""
 
 [footer]
