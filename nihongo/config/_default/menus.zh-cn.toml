@@ -13,23 +13,23 @@
 
 [[main]]
   name = "N2"
-  pageRef = "noryoku"
+  pageRef = "n2-topic"
   weight = 10
 
 [[main]]
   name = "N3"
   pageRef = "n3"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "N5-N4"
   pageRef = "minnano"
-  weight = 40
+  weight = 30
 
  [[main]]
    name = "动词变形"
    pageRef = "transform"
-   weight = 50
+   weight = 40
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
