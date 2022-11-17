@@ -13,7 +13,7 @@
 
 [[main]]
   name = "N2"
-  pageRef = "n2-topic"
+  pageRef = "n2"
   weight = 10
 
 [[main]]
@@ -23,7 +23,7 @@
 
 [[main]]
   name = "N5-N4"
-  pageRef = "minnano"
+  pageRef = "n5-n4"
   weight = 30
 
  [[main]]

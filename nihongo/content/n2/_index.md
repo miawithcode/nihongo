@@ -1,6 +1,6 @@
 ---
-title: "N2"
-description: 
+title: "N2 文法"
+description:
 ---
 
 ---
