@@ -1,0 +1,47 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
+
+[[main]]
+  name = "N2"
+  pageRef = "n2"
+  weight = 10
+
+[[main]]
+  name = "N3"
+  pageRef = "n3"
+  weight = 20
+
+[[main]]
+  name = "N5-N4"
+  pageRef = "n5-n4"
+  weight = 30
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+
+[[footer]]
+  identifier = "cuttontail"
+  name = "小綿尾巴"
+  url = "https://cuttontail.blog"
+  weight = 10
+ [[footer]]
+   name = "Tags"
+   pageRef = "tags"
+   weight = 20
+  [[footer]]
+   name = "变形"
+   pageRef = "trans"
+   weight = 30
+
