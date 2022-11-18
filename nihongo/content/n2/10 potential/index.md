@@ -1,7 +1,7 @@
 ---
 title: "【N2】可能"
 date: 2022-11-04T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","可能"]
 summary: "「不得不」、「有可能」、「恐怕会」、「想要做也做不到」一类的19个文法"
 showDate: false
 slug: potential

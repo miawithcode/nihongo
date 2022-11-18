@@ -1,7 +1,7 @@
 ---
 title: "【N2】判断、评价"
 date: 2022-11-13T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","判断"]
 summary: "「一定」、「完全不」、「并非」、「应该」一类的27个文法"
 showDate: false
 slug: judgement

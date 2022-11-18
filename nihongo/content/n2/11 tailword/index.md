@@ -1,7 +1,7 @@
 ---
 title: "【N2】接尾词"
 date: 2022-11-03T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","接尾"]
 summary: "接尾词"
 showDate: false
 slug: tailword

@@ -1,7 +1,7 @@
 ---
 title: "【N2】限定、强调"
 date: 2022-11-07T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","限定","强调"]
 summary: "「限于」、「不仅」、「自不必说」一类的20个文法"
 showDate: false
 slug: limit-and-emphasis

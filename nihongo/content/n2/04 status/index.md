@@ -1,7 +1,7 @@
 ---
 title: "【N2】状态"
 date: 2022-11-10T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","状态"]
 summary: "「得不得了」、「越来越」、「一边〜一边〜」一类的22个文法"
 showDate: false
 slug: status

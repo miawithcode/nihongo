@@ -1,7 +1,7 @@
 ---
 title: "【N2】话题"
 date: 2022-11-05T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","话题"]
 summary: "「提出话题」、「从〜来看」、「〜暂且不论」一类的10个文法"
 showDate: false
 slug: topic

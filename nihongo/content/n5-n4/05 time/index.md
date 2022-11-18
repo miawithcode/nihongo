@@ -1,7 +1,7 @@
 ---
 title: "【N5-N4】时间"
-date: 2022-09-26T12:00:00+08:00
-tags: ["n5-n4"]
+date: 2022-09-14T12:00:00+08:00
+tags: ["n5-n4","时间"]
 summary: "「〜的时候」、「〜之后，做」等表示时间的语法"
 showDate: false
 slug: time

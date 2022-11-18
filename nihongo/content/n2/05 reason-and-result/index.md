@@ -1,7 +1,7 @@
 ---
 title: "【N2】原因、结果"
 date: 2022-11-09T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","原因","结果"]
 summary: "「原因」、「结果」一类的22个文法"
 showDate: false
 slug: reason-and-result

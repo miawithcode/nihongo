@@ -1,6 +1,6 @@
 ---
 title: "【N5-N4】原因、目的"
-date: 2022-09-23T12:00:00+08:00
+date: 2022-09-11T12:00:00+08:00
 tags: ["n5-n4"]
 summary: "原因和目的"
 showDate: false

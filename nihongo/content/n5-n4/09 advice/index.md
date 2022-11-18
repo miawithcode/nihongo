@@ -1,7 +1,7 @@
 ---
 title: "【N5-N4】建议"
-date: 2022-09-22T12:00:00+08:00
-tags: ["n5-n4"]
+date: 2022-09-10T12:00:00+08:00
+tags: ["n5-n4","建议"]
 summary: "提议、建议和忠告"
 showDate: false
 slug: advice

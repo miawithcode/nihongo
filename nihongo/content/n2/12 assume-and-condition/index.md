@@ -1,7 +1,7 @@
 ---
 title: "【N2】假定、条件"
 date: 2022-11-02T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","假设","条件"]
 summary: "「即使、就算」、「如果」一类的12个文法"
 showDate: false
 slug: assume-and-condition

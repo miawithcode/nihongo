@@ -1,7 +1,7 @@
 ---
 title: "【N5-N4】その他"
-date: 2022-09-13T12:00:00+08:00
-tags: ["n5-n4"]
+date: 2022-09-01T12:00:00+08:00
+tags: ["n5-n4","その他"]
 summary: "その他の文法"
 showDate: false
 slug: others

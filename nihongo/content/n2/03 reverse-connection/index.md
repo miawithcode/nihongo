@@ -1,7 +1,7 @@
 ---
 title: "【N2】逆接"
 date: 2022-11-11T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","关系","逆接"]
 summary: "「虽然，但是」、「竟然」一类的13个文法"
 showDate: false
 slug: reverse-connection

@@ -1,7 +1,7 @@
 ---
 title: "【N5-N4】假定"
-date: 2022-09-17T12:00:00+08:00
-tags: ["n5-n4"]
+date: 2022-09-05T12:00:00+08:00
+tags: ["n5-n4","假定","条件"]
 summary: "假定与条件"
 showDate: false
 slug: assume

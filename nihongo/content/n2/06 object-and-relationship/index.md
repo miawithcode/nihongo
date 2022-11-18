@@ -1,7 +1,7 @@
 ---
 title: "【N2】对象、关系"
 date: 2022-11-08T12:00:00+08:00
-tags: ["n2"]
+tags: ["n2","对象","关系"]
 summary: "「关于」、「对〜而言」、「无论」一类的35个文法"
 showDate: false
 slug: object-and-relationship
