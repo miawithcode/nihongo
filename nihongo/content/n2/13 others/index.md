@@ -1,6 +1,6 @@
 ---
 title: "【N2】そと他"
-date: 2022-11-15T23:34:21+08:00
+date: 2022-11-01T12:00:00+08:00
 tags: ["n2"]
 summary: "其他文法"
 showDate: false
