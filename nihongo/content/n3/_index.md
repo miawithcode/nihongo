@@ -1,5 +1,5 @@
 ---
-title: "N3 文法"
+title: "N3"
 description: 
 ---
 
