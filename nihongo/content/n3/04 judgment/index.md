@@ -1,8 +1,8 @@
 ---
-title: "【N3】判断、条件"
+title: "【N3】判断、评价"
 date: 2022-10-10T12:00:00+08:00
 tags: ["n3","判断"]
-summary: "判断与条件"
+summary: "判断"
 showDate: false
 slug: judgment
 ---
