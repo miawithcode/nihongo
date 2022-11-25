@@ -4,8 +4,17 @@
   
     
       <url>
-            <loc>https://nihongo.cuttontail.blog/n2/judgement/</loc>
-            <lastmod>2022-11-13T12:00:00+08:00</lastmod>
+            <loc>https://nihongo.cuttontail.blog/jlpt/words-grammar-reading-tricks/</loc>
+            <lastmod>2022-11-25T12:55:41+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nihongo.cuttontail.blog/jlpt/</loc>
+            <lastmod>2022-11-25T12:55:41+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
           </url>
@@ -14,6 +23,33 @@
     
       <url>
             <loc>https://nihongo.cuttontail.blog/tags/n2/</loc>
+            <lastmod>2022-11-25T12:55:41+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nihongo.cuttontail.blog/tags/</loc>
+            <lastmod>2022-11-25T12:55:41+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nihongo.cuttontail.blog/</loc>
+            <lastmod>2022-11-25T12:55:41+08:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://nihongo.cuttontail.blog/n2/judgement/</loc>
             <lastmod>2022-11-13T12:00:00+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -31,25 +67,7 @@
   
     
       <url>
-            <loc>https://nihongo.cuttontail.blog/tags/</loc>
-            <lastmod>2022-11-13T12:00:00+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
             <loc>https://nihongo.cuttontail.blog/tags/%E5%88%A4%E6%96%AD/</loc>
-            <lastmod>2022-11-13T12:00:00+08:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://nihongo.cuttontail.blog/</loc>
             <lastmod>2022-11-13T12:00:00+08:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>

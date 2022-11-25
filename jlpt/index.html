@@ -10,16 +10,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>对象 &middot; 綿の日本語メモ</title>
-  <meta name="title" content="对象 &middot; 綿の日本語メモ" />
+  <title>JLPT &middot; 綿の日本語メモ</title>
+  <meta name="title" content="JLPT &middot; 綿の日本語メモ" />
   
   <meta name="description" content="小綿尾巴の日语笔记本" />
   
   
   
-  <link rel="canonical" href="https://nihongo.cuttontail.blog/tags/%E5%AF%B9%E8%B1%A1/" />
+  <link rel="canonical" href="https://nihongo.cuttontail.blog/jlpt/" />
   
-  <link rel="alternate" type="application/rss+xml" href="/tags/%E5%AF%B9%E8%B1%A1/index.xml" title="綿の日本語メモ" />
+  <link rel="alternate" type="application/rss+xml" href="/jlpt/index.xml" title="綿の日本語メモ" />
   
   
   
@@ -68,14 +68,14 @@
   
   
   
-  <meta property="og:title" content="对象" />
+  <meta property="og:title" content="JLPT" />
 <meta property="og:description" content="小綿尾巴の日语笔记本" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://nihongo.cuttontail.blog/tags/%E5%AF%B9%E8%B1%A1/" /><meta property="og:site_name" content="綿の日本語メモ" />
+<meta property="og:url" content="https://nihongo.cuttontail.blog/jlpt/" /><meta property="og:site_name" content="綿の日本語メモ" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="对象"/>
+<meta name="twitter:title" content="JLPT"/>
 <meta name="twitter:description" content="小綿尾巴の日语笔记本"/>
 
   
@@ -306,16 +306,12 @@
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
       
-  <header>
-    
-    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">对象</h1>
-  </header>
+
+ <header>
   
-  <section class="mt-5 space-y-10 w-full">
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">JLPT</h1>
+  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
     
-      
-      
-        
 
 
 
@@ -331,12 +327,171 @@
 
 
 
-  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md" href="/n2/object-and-relationship/">
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+</div>
+
+
+  </div>
+  </header>
+  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+    
+    <div class="min-w-0 min-h-0 max-w-prose">
+      <hr>
+
+    </div>
+    <script>
+
+      var liked_article = false
+
+      if (typeof auth !== 'undefined') {
+        var oid = "views_jlpt\/_index.md"
+        var id = oid ? oid.replaceAll("/", "-") : oid
+
+        var viewed = localStorage.getItem(id);
+
+        if (!viewed) {
+          auth.signInAnonymously()
+            .then(() => {
+              var docRef = db.collection('views').doc(id)
+              localStorage.setItem(id, true);
+              docRef.get().then((doc) => {
+                if (doc.exists) {
+                  db.collection('views').doc(id).update({
+                    views: firebase.firestore.FieldValue.increment(1)
+                  });
+                } else {
+                  db.collection('views').doc(id).set({ views: 1 })
+                }
+              }).catch((error) => {
+                console.log("Error getting document:", error);
+              });
+            })
+            .catch((error) => {
+              var errorCode = error.code;
+              var errorMessage = error.message;
+              console.error(errorCode, errorMessage)
+            });
+        }
+
+        var oid_likes = "likes_jlpt\/_index.md"
+        var id_likes = oid_likes ? oid_likes.replaceAll("/", "-") : oid_likes
+
+        var liked = localStorage.getItem(id_likes);
+
+        if (liked) {
+          liked_article = true
+          document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = ""
+          document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = "none"
+          document.querySelectorAll("span[id='likes_button_text']")[0].innerText = ""
+        }
+
+      }
+
+      function like_article(id_likes) {
+        auth.signInAnonymously()
+          .then(() => {
+            var docRef = db.collection('likes').doc(id_likes)
+            docRef.get().then((doc) => {
+              liked_article = true
+              localStorage.setItem(id_likes, true);
+              document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = ""
+              document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = "none"
+              document.querySelectorAll("span[id='likes_button_text']")[0].innerText = ""
+              if (doc.exists) {
+                db.collection('likes').doc(id_likes).update({
+                  likes: firebase.firestore.FieldValue.increment(1)
+                });
+              } else {
+                db.collection('likes').doc(id_likes).set({ likes: 1 })
+              }
+            }).catch((error) => {
+              console.log("Error getting document:", error);
+            });
+          })
+          .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.error(errorCode, errorMessage)
+          });
+      }
+
+      function remove_like_article(id_likes) {
+        auth.signInAnonymously()
+          .then(() => {
+            var docRef = db.collection('likes').doc(id_likes)
+            docRef.get().then((doc) => {
+              liked_article = false
+              localStorage.removeItem(id_likes);
+              document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = "none"
+              document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = ""
+              document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "\xa0Like"
+              if (doc.exists) {
+                db.collection('likes').doc(id_likes).update({
+                  likes: firebase.firestore.FieldValue.increment(-1)
+                });
+              } else {
+                db.collection('likes').doc(id_likes).set({ likes: 0 })
+              }
+            }).catch((error) => {
+              console.log("Error getting document:", error);
+            });
+          })
+          .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.error(errorCode, errorMessage)
+          });
+      }
+
+      function process_article() {
+        var oid_likes = "likes_jlpt\/_index.md"
+        var id_likes = oid_likes ? oid_likes.replaceAll("/", "-") : oid_likes
+        if (!liked_article) {
+          like_article(id_likes)
+        } else {
+          remove_like_article(id_likes)
+        }
+      }
+
+    </script>
+  </section>
+  
+
+  
+          <section class="space-y-10 w-full">
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md" href="/jlpt/words-grammar-reading-tricks/">
     <div class=" p-4">
       <div class="items-center text-xl font-semibold">
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/n2/object-and-relationship/">【N2】对象、关系</div>
+          href="/jlpt/words-grammar-reading-tricks/">【N2】言语知识解题思路</div>
         
         
         
@@ -370,8 +525,12 @@
 
 
 
+
+
 <div class="flex flex-row flex-wrap items-center">
   
+  
+  <time datetime="2022-11-25 12:55:41 &#43;0800 CST">2022-11-25</time>
   
 
   
@@ -402,28 +561,6 @@
 
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E5%AF%B9%E8%B1%A1/&#34;);">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    对象
-  </span>
-</span>
-
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E5%85%B3%E7%B3%BB/&#34;);">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    关系
-  </span>
-</span>
-
-  </span>
-  
   
   
   
@@ -434,143 +571,21 @@
       </div>
       
       <div class="py-1 prose dark:prose-invert">
-        「关于」、「对〜而言」、「无论、不问」、「范围」、「暂且不提」一类的35个文法
+        文字词汇和阅读部分的解题思路与技巧
       </div>
       
     </div>
   </a>
-      
-        
+            
+            
+          </section>
+          
 
 
+          
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article border border-neutral-200 dark:border-neutral-700 border-2 rounded-md" href="/n3/object-and-relationship/">
-    <div class=" p-4">
-      <div class="items-center text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/n3/object-and-relationship/">【N3】对象、关系</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/n3/&#34;);">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    n3
-  </span>
-</span>
-
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E5%AF%B9%E8%B1%A1/&#34;);">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    对象
-  </span>
-</span>
-
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/%E5%85%B3%E7%B3%BB/&#34;);">
-    <span class="flex">
-  <span
-    class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
-  >
-    关系
-  </span>
-</span>
-
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-      </div>
-      
-      <div class="py-1 prose dark:prose-invert">
-        对象与关系
-      </div>
-      
-    </div>
-  </a>
-      
-    
-  </section>
-  
-
-
-
+          
+          
       
     </main><footer class="py-10 print:hidden">
   
